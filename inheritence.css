@@ -15,3 +15,5 @@ color:darkblue;
     color:red;
     background-color: yellow;
 }
+.nested p{
+   border:inherit;}
