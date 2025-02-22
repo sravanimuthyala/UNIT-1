@@ -1,0 +1,29 @@
+p{
+    color:blue;
+}
+.container{
+    font-weight: bold;
+}
+.active{
+    background-color: yellow;
+}
+#menu{
+    border-bottom: 1px solid gray;
+}
+a:hover{
+    color:black;
+}
+ul:first-child{
+    font-style: italic;
+}
+input[type="text"]{
+    border: 2px solid red;
+}body p:nth-of-type(even){
+    background-color: lightgray;
+}
+button::after{
+    content: "🐧";
+}
+button::before{
+    content:"❄️"
+}
